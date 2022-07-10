@@ -1,4 +1,4 @@
-package com.example.jarinara_schedular.config;
+package com.example.jarinara_schedular.job;
 
 import lombok.AllArgsConstructor;
 import org.springframework.batch.core.Job;
@@ -40,5 +40,6 @@ public class JarinaraConfiguration {
 				System.out.println("Hello Spring Batch");
 				return RepeatStatus.FINISHED;
 			}).build();
+
 	}
 }
